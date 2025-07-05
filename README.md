@@ -1,2 +1,2 @@
 # xor-patterns
-Teeny-weeny never-mind project, to keep somewhere useful MP4 and GIF creators on Node.js.
+A tiny side project to keep some useful Node.js scripts in one place. Includes tools to generate MP4 videos and GIFs.
