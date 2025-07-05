@@ -4,7 +4,6 @@ var sizexy=256;
 function droveLines(canvas, ax, ay){
 	var d=document.getElementById('d').value*1;
 	var e=document.getElementById('e').value*1;
-	var phaze=0;
 	
 	ax=Math.floor(ax/size);
 	ay=Math.floor(ay/size);
