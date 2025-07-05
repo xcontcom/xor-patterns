@@ -25,7 +25,7 @@ function droveLines(canvas, ax, ay){
 
 
 			
-			let value = ((x*e+b)^(y*e+c)^ax)%d;
+			let value = ((x*e)^(y*e)^ax)%d;
 			let brightness = Math.round(value * (255 / (d - 1)));
 			context.fillStyle = `rgb(${brightness}, ${brightness}, ${brightness})`;
 			//let hue = Math.round(value * (360 / (d - 1)));
